@@ -1,0 +1,36 @@
+
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgb(253, 84, 17, 0.89) 0%, rgba(255, 131, 59, 0.89) 100%);
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.navbar_title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+.navbar_logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar_item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
